@@ -12,7 +12,7 @@ Variables and Data Types
 
 Conditional Statements
 
-Loops
+Loop
 
 Functions
 
