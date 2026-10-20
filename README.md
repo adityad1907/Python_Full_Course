@@ -18,29 +18,40 @@ Functions
 
 Strings
 
-Lists
+# Python Full Course
 
-Tuples
+A collection of numbered Python lessons and small projects for learning by writing and running code. The lessons move from basic syntax to object-oriented programming, standard-library features, graphical interfaces, and games. Each `.py` file is a standalone example; open it, read the comments, and run it as you work through the topic.
 
-Dictionaries
+## Topics
 
-Sets
+- **Python fundamentals:** variables, input, types, strings, math, conditions, and loops
+- **Core data structures:** lists, 2D lists, tuples, sets, and dictionaries
+- **Functions:** arguments, return values, scope, lambdas, comprehensions, and higher-order functions
+- **Object-oriented programming:** classes, inheritance, overriding, abstract classes, and duck typing
+- **Python tools and features:** exceptions, files, modules, random numbers, time, and concurrency
+- **Tkinter and projects:** widgets, events, windows, a calculator, a text editor, and games including Tic Tac Toe and Snake
 
-File Handling
+## Getting Started
 
-Exception Handling
+Install Python 3, then run a lesson from the repository directory:
 
-Modules
+```bash
+python "1-Introduction.py"
+```
 
-Object-Oriented Programming (OOP)
+Use the Python command available on your system. On some Linux systems, this may be `python3` instead of `python`.
 
-Random Module
+Choose a lesson by its number and topic in the filename. For example:
 
-Simple Games
+```bash
+python "21-Functions.py"
+python "40-Object Oriented Programming (OOP).py"
+python "98-Calculator Program.py"
+```
 
-Pattern Printing
+Most lessons use Python's standard library. GUI examples use Tkinter, which may need to be installed separately on some Linux distributions. If a lesson imports another package, check its comments and install instructions before running it.
 
-Basic Algorithms
+## Working Through the Course
 
-And many more as I continue learning.
+The files are intended for experimentation. Run a lesson, change its values or logic, and run it again to see how the behavior changes. The numbering gives a suggested order, while individual examples can also be explored on their own.
 
